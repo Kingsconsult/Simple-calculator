@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kings Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div class="container">
+    <table border="1" cellspacing="0">
+        <tr class="instruction">
+            <td colspan="4"><P>KINGS CALCULATOR</P></td>            
+        </tr>
+        <tr class="instruction">
+            <td colspan="4">Always clear the previous calculation before another calculation with AC</td>            
+        </tr>
+        <tr>
+            <td colspan="4" id="calculation" class="calcArea" >0</td>
+        </tr>
+        <tr>
+            <td><button class="clear" onclick="Calc(this);">AC</button></td>
+            <td><button onclick="Calc(this);"></button></td>
+            <td><button onclick="Calc(this);" id="square"></button></td>
+            <td><button onclick="Calc(this);">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="num" onclick="Calc(this);">7</button></td>
+            <td><button class="num" onclick="Calc(this);">8</button></td>
+            <td><button class="num" onclick="Calc(this);">9</button></td>
+            <td><button onclick="Calc(this);">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="num" onclick="Calc(this);">4</button></td>
+            <td><button class="num" onclick="Calc(this);">5</button></td>
+            <td><button class="num" onclick="Calc(this);">6</button></td>
+            <td><button onclick="Calc(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="num" onclick="Calc(this);">1</button></td>
+            <td><button class="num" onclick="Calc(this);">2</button></td>
+            <td><button class="num" onclick="Calc(this);">3</button></td>
+            <td><button onclick="Calc(this);">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="num" onclick="Calc(this);">0</button></td>
+            <td><button class="num" onclick="Calc(this);">00</button></td>
+            <td><button class="num" onclick="Calc(this);">.</button></td>
+            <td><button onclick="Calc(this);">=</button></td>
+        </tr>
+    </table>
+</div>
+ 
+<script src=calculator.js></script>
+</body>
+</html
